@@ -1,0 +1,50 @@
+{
+    "name":  "doc-digest",
+    "logo":  "📖",
+    "exe":  "DocDigest.exe",
+    "desc":  "Free, open-source document summarizer for Windows — long PDFs into digests and Q\u0026A with local LLMs. 100 MB portable, offline, MIT.",
+    "topics":  [
+                   "summarizer",
+                   "pdf-summary",
+                   "local-ai",
+                   "llm",
+                   "document-analysis",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "map-reduce",
+                   "q-and-a",
+                   "citations",
+                   "batch-digests",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **Long-document handling** — map-reduce passes digest 500-page PDFs that would blow a single context window",
+                     "✅ **Chapter outline** — structure rebuilt as a collapsible outline before the summary is written",
+                     "✅ **Key point cards** — decisions, numbers and named entities pulled out as scannable cards",
+                     "✅ **Q\u0026A with citations** — ask about the document and every answer links to the page it came from",
+                     "✅ **Batch digests** — a folder of reports each summarized into its own markdown file",
+                     "✅ **Quote finder** — search the original text for a phrase and jump to the passage",
+                     "✅ **100 MB self-contained exe** — runtime bundled, models downloaded separately, offline after that, MIT"
+                 ],
+    "compare":  [
+                    "| Feature | **doc-digest** | ChatPDF | NotebookLM | Manual reading |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Paid tiers | Free web | Your weekend |",
+                    "| Open source | **Yes** | No | No | N/A |",
+                    "| Documents stay local | **Yes** | Upload | Upload | Yes",
+                    "| Works on 500-page files | **Yes** | Partial | Partial | Yes slowly",
+                    "| Batch folder digests | **Yes** | One by one | No | No |",
+                    "| Portable, no install | **Yes, 100 MB** | Browser | Browser | N/A"
+                ],
+    "faqQ":  "summarize long PDFs offline without uploading confidential documents?",
+    "faqA":  "Cloud PDF chat tools want the full document uploaded, which rules out contracts and internal reports. doc-digest processes long files locally in passes, builds an outline and answers questions with page citations. It is a 100 MB portable exe, MIT, offline, and can digest a whole folder while you do something else.",
+    "s1":  "Dark reader (#121417, amber #D97706): outline tree left with 24 chapters, digest pane right with key point cards, citation chips linking to page numbers.",
+    "s2":  "Q\u0026A panel: question about payment terms typed in the bar, answer with two highlighted page links beneath, confidence note chip on the row.",
+    "s3":  "Batch view: 14 report files with digest status and lengths, per-file markdown checkmarks, folder output path chip, progress at 9 of 14."
+}
